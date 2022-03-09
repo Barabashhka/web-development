@@ -1,0 +1,11 @@
+PROGRAM Laba1(INPUT, OUTPUT);
+USES
+  Dos;
+BEGIN {Laba1}
+  WRITELN('Content-Type: text/plain');
+  WRITELN;
+  WRITELN(GetEnv('REQUEST_METHOD'));
+  WRITELN(GetEnv('QUERY_STRING'));
+  WRITELN(GetEnv('HTTP_USER_AGENT'));
+  WRITELN(GetEnv('HTTP_HOST'))
+END. {Laba1}
