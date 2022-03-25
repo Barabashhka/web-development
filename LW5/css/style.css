@@ -1,0 +1,259 @@
+.pink
+{
+    color: #EE58B6;
+}
+
+.header__logo
+{
+    width: 167px;
+}
+
+.header__investments
+{
+    font: 500 16px/1.25 normal;
+    font-family: Montserrat;
+}
+
+.header__investments-part
+{
+    margin-right: 70px;
+}
+
+.header__button
+{
+    background-color: #05090C;
+    width: 167px;
+    padding: 17px 40px;
+    border-radius: 4px;
+    margin-left: 11px;
+}
+
+.header__button-text
+{
+    font: 600 16px/1 normal;
+    color: #FFF;
+    font-family: Montserrat;
+}
+
+.mainscreen__left-header
+{
+    font: 600 100px/1.2 normal;
+    font-family: Montserrat;
+}
+
+.mainscreen__left-text
+{
+    font: 400 26px/1.2 normal;
+    font-family: Roboto Condensed;
+    color: #4D4D4D;
+}
+
+.mainscreen__button
+{
+    background-color: #05090C;
+    padding: 18px 83px;
+    border-radius: 4px;
+    width: 167px;
+}
+
+.mainscreen__button-text
+{
+    font: 600 16px/1 normal;
+    font-family: Montserrat;
+    color: #FFF;
+}
+
+.mainscreen__image
+{
+    width: 848px;
+}
+
+.benefits
+{
+    background-color: #000;
+}
+
+.benefits__time
+{
+    width: 337px;
+    height: 145px;
+}
+
+.benefits__time-icon
+{
+    width: 60px;
+}
+
+.benefits__time-text
+{
+    font: 400 22px/1.2 normal;
+    font-family: Roboto Condensed;
+    color: #FFF;
+    text-align: center;
+}
+
+.benefits__notebooks
+{
+    width: 337px;
+    height: 145px;
+}
+
+.benefits__notebooks-icon
+{
+    width: 60px;
+}
+
+.benefits__notebooks-text
+{
+    font: 400 22px/1.2 normal;
+    font-family: Roboto Condensed;
+    color: #FFF;
+    text-align: center;
+}
+
+.benefits__target
+{
+    width: 337px;
+    height: 145px;
+}
+
+.benefits__target-icon
+{
+    width: 60px;
+}
+
+.benefits__target-text
+{
+    font: 400 22px/1.2 normal;
+    font-family: Roboto Condensed;
+    color: #FFF;
+    text-align: center;
+}
+
+.problems__image1
+{
+    width: 535px;
+}
+
+.problems__right
+{
+    width: 574px;
+}
+
+.problems__right-header
+{
+    font: 500 48px/1.25 normal;
+    font-family: Montserrat;
+}
+
+.problems__right-text
+{
+    font: 400 18px/1.35 normal;
+    font-family: Roboto Condensed;
+}
+
+.problems__image2
+{
+    width: 504px;
+}
+
+.problems__left
+{
+    width: 574px;
+}
+
+.problems__left-header
+{
+    font: 500 48px/1.25 normal;
+    font-family: Montserrat;
+    
+}
+
+.problems__left-text
+{
+    font: 400 18px/1.35 normal;
+    font-family: Roboto Condensed;
+}
+
+.opportunities__header
+{
+    font: 500 48px/1.2 normal;
+    font-family: Montserrat;
+}
+
+.opportunities__block
+{
+    background-color: #000;
+    width: 358px;
+    height: 190px;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+.opportunities__l1-image
+{
+    width: 37px;
+    height: 48px;
+    padding-left: 39px;
+    padding-top: 32px;
+}
+
+.opportunities__text
+{
+    font: 400 18px/1.15 normal;
+    font-family: Roboto Condensed;
+    color: #FFF;
+    padding-left: 39px;
+}
+
+.opportunities__l2-image
+{
+    width: 35px;
+    height: 48px;
+    padding-left: 39px;
+    padding-top: 32px;
+}
+
+.opportunities__l3-image
+{
+    width: 45px;
+    height: 48px;
+    padding-left: 39px;
+    padding-top: 32px;
+}
+
+.opportunities__l4-image
+{
+    width: 39px;
+    height: 48px;
+    padding-left: 39px;
+    padding-top: 32px;
+}
+
+.opportunities__l5-image
+{
+    width: 49px;
+    height: 48px;
+    padding-left: 39px;
+    padding-top: 22px;
+}
+
+.opportunities__l6-image
+{
+    width: 35px;
+    height: 48px;
+    padding-left: 39px;
+    padding-top: 32px;
+}
+
+.footer
+{
+    background-color: #000;
+    margin-top: 10px;
+    height: 108px;
+}
+
+.footer__logo
+{
+    width: 167px;
+}
