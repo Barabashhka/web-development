@@ -1,0 +1,1822 @@
+body
+{
+    margin: 0px;
+}
+
+.pink
+{
+    color: #EE58B6;
+}
+
+@media screen and (min-width: 320px)
+{
+    .contain_wrapper
+    {
+        max-width: 320px;
+    }
+    
+    .header
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .header__logo
+    {
+        width: 25%;
+    }
+
+    .header__investments
+    {
+        font: 500 10px/1.25 normal;
+        font-family: Montserrat;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header__button
+    {
+        margin-top: 5%;
+        background-color: #05090C;
+        width: 50%;
+        border-radius: 5px;
+        text-align: center;
+        padding: 3% 0%;
+        
+    }
+
+    .header__button-text
+    {
+        font: 600 10px/1 normal;
+        color: #FFF;
+        font-family: Montserrat;
+    }
+
+    .mainscreen
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    .mainscreen__up
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .mainscreen__up-header
+    {
+        font: 600 35px/1.2 normal;
+        font-family: Montserrat;
+    }
+    
+    .mainscreen__up-image
+    {
+        width: 70%;
+    }
+    
+    .mainscreen__down
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainscreen__down-text
+    {
+        margin-top: 13%;
+        font: 400 12px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #4D4D4D;
+        width: 60%;
+        text-align: center;
+    }
+
+    .mainscreen__button
+    {
+        background-color: #05090C;
+        width: 65%;
+        padding: 3% 0%;
+        border-radius: 4px;
+        text-align: center;
+        display: none;
+    }
+
+    .mainscreen__button-text
+    {
+        font: 600 10px/1 normal;
+        font-family: Montserrat;
+        color: #FFF;
+    }
+
+    .benefits
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .benefits__blocks
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .benefits__time
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__time-icon
+    {
+        width: 25%;
+    }
+
+    .benefits__text
+    {
+        font: 400 12px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .benefits__notebooks
+    {
+        margin-top: 10%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__notebooks-icon
+    {
+        width: 25%;
+    }
+
+    .benefits__target
+    {
+        margin-top: 10%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__target-icon
+    {
+        width: 25%;
+    }
+
+    .problems
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    .problems__up
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .problems__up-image1
+    {
+        width: 60%;
+    }
+
+    .problems__up-right
+    {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .problems__right-header
+    {
+        font: 500 24px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__right-text
+    {
+        font: 400 10px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .problems__down
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 25%;
+    }
+    
+    .problems__down-image2
+    {
+        width: 40%;
+    }
+
+    .problems__down-left
+    {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .problems__left-header
+    {
+        font: 500 24px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__left-text
+    {
+        font: 400 11px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .opportunities
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 25%;
+    }
+
+    .opportunities__blocks
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .opportunities__blocks-up
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunities__blocks-bottom
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunities__header
+    {
+        font: 500 24px/1.2 normal;
+        font-family: Montserrat;
+    }
+
+    .opportunities__block
+    {
+        background-color: #000;
+        width: 80%;
+        border-radius: 7px;
+        margin-bottom: 5%;
+        text-align: left;
+        padding: 7% 0%;
+    }
+
+    .opportunities__l1-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__text
+    {
+        font: 400 11px/1.15 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l2-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l3-image
+    {
+        width: 12%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l4-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l5-image
+    {
+        width: 12%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l6-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .footer
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+
+    .footer__logo
+    {
+        width: 25%;  
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .contain_wrapper
+    {
+        max-width: 480px;
+    }
+    
+    .header
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .header__logo
+    {
+        width: 20%;
+    }
+
+    .header__investments
+    {
+        font: 500 13px/1.25 normal;
+        font-family: Montserrat;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header__button
+    {
+        margin-top: 5%;
+        background-color: #05090C;
+        width: 40%;
+        border-radius: 5px;
+        text-align: center;
+        padding: 3% 0%;
+        
+    }
+
+    .header__button-text
+    {
+        font: 600 13px/1 normal;
+        color: #FFF;
+        font-family: Montserrat;
+    }
+
+    .mainscreen
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    .mainscreen__up
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .mainscreen__up-header
+    {
+        font: 600 44px/1.2 normal;
+        font-family: Montserrat;
+    }
+    
+    .mainscreen__up-image
+    {
+        width: 70%;
+    }
+    
+    .mainscreen__down
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainscreen__down-text
+    {
+        margin-top: 13%;
+        font: 400 15px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #4D4D4D;
+        width: 60%;
+        text-align: center;
+    }
+
+    .mainscreen__button
+    {
+        background-color: #05090C;
+        width: 55%;
+        padding: 3% 0%;
+        border-radius: 4px;
+        text-align: center;
+        display: none;
+    }
+
+    .mainscreen__button-text
+    {
+        font: 600 13px/1 normal;
+        font-family: Montserrat;
+        color: #FFF;
+    }
+
+    .benefits
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .benefits__blocks
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .benefits__time
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__time-icon
+    {
+        width: 18%;
+    }
+
+    .benefits__text
+    {
+        font: 400 15px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .benefits__notebooks
+    {
+        margin-top: 10%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__notebooks-icon
+    {
+        width: 18%;
+    }
+
+    .benefits__target
+    {
+        margin-top: 10%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__target-icon
+    {
+        width: 18%;
+    }
+
+    .problems
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    .problems__up
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .problems__up-image1
+    {
+        width: 60%;
+    }
+
+    .problems__up-right
+    {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .problems__right-header
+    {
+        font: 500 27px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__right-text
+    {
+        font: 400 13px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .problems__down
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 25%;
+    }
+    
+    .problems__down-image2
+    {
+        width: 40%;
+    }
+
+    .problems__down-left
+    {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .problems__left-header
+    {
+        font: 500 27px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__left-text
+    {
+        font: 400 13px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .opportunities
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 25%;
+    }
+
+    .opportunities__blocks
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .opportunities__blocks-up
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunities__blocks-bottom
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunities__header
+    {
+        font: 500 27px/1.2 normal;
+        font-family: Montserrat;
+    }
+
+    .opportunities__block
+    {
+        background-color: #000;
+        width: 60%;
+        border-radius: 7px;
+        margin-bottom: 5%;
+        text-align: left;
+        padding: 7% 0%;
+    }
+
+    .opportunities__l1-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__text
+    {
+        font: 400 14px/1.15 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l2-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l3-image
+    {
+        width: 12%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l4-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l5-image
+    {
+        width: 12%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l6-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .footer
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+    .footer__logo
+    {
+        width: 20%;  
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .contain_wrapper
+    {
+        max-width: 768px;
+    }
+    
+    .header
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+    }
+
+    .header__logo
+    {
+        width: 15%;
+        margin-right: 5%;
+        margin-left: 2%;
+    }
+
+    .header__investments
+    {
+        font: 500 13px/1.25 normal;
+        font-family: Montserrat;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        width: 40%;
+        margin-left: 10%;
+        margin-right: 2%;
+    }
+    
+    .header__investments-part
+    {
+       margin-left: 5%;
+    }
+    
+    .header__button
+    {
+        background-color: #05090C;
+        width: 25%;
+        border-radius: 5px;
+        text-align: center;
+        padding: 2% 0;
+        margin-top: 0;
+        
+    }
+
+    .header__button-text
+    {
+        font: 600 13px/1 normal;
+        color: #FFF;
+        font-family: Montserrat;
+    }
+
+    .mainscreen
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .mainscreen__up
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .mainscreen__up-header
+    {
+        font: 600 60px/1.2 normal;
+        font-family: Montserrat;
+        margin-left: 3%;
+        width: 35%;
+    }
+    
+    .mainscreen__up-image
+    {
+        width: 50%;
+    }
+    
+    .mainscreen__down
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainscreen__down-text
+    {
+        margin-top: 13%;
+        font: 400 15px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #4D4D4D;
+        width: 60%;
+        text-align: center;
+    }
+
+    .mainscreen__button
+    {
+        background-color: #05090C;
+        width: 65%;
+        padding: 3% 0%;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .mainscreen__button-text
+    {
+        font: 600 13px/1 normal;
+        font-family: Montserrat;
+        color: #FFF;
+    }
+
+    .benefits
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .benefits__blocks
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .benefits__time
+    {
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__time-icon
+    {
+        width: 20%;
+    }
+
+    .benefits__text
+    {
+        font: 400 15px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .benefits__notebooks
+    {
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+    }
+
+    .benefits__notebooks-icon
+    {
+        width: 20%;
+    }
+
+    .benefits__target
+    {
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .benefits__target-icon
+    {
+        width: 20%;
+    }
+
+    .problems
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    .problems__up
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .problems__up-image1
+    {
+        width: 40%;
+    }
+
+    .problems__up-right
+    {
+        width: 40%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .problems__right-header
+    {
+        font: 500 27px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__right-text
+    {
+        font: 400 13px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .problems__down
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .problems__down-image2
+    {
+        width: 35%;
+    }
+
+    .problems__down-left
+    {
+        margin-left: 14%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .problems__left-header
+    {
+        font: 500 27px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__left-text
+    {
+        font: 400 13px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .opportunities
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 25%;
+    }
+
+    .opportunities__blocks
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .opportunities__blocks-up
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunities__blocks-bottom
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunities__header
+    {
+        font: 500 27px/1.2 normal;
+        font-family: Montserrat;
+    }
+
+    .opportunities__block
+    {
+        background-color: #000;
+        width: 70%;
+        border-radius: 7px;
+        text-align: left;
+        padding: 7% 0;
+    }
+
+    .opportunities__l1-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__text
+    {
+        font: 400 14px/1.15 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        width: 85%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l2-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l3-image
+    {
+        width: 13%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l4-image
+    {
+        width: 11%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l5-image
+    {
+        width: 12%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l6-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .footer
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .footer__logo
+    {
+        width: 15%;  
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .contain_wrapper
+    {
+        max-width: 1024px;
+    }
+    
+    .header
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+    }
+
+    .header__logo
+    {
+        width: 10%;
+        margin-right: 3%;
+        margin-left: 1%;
+    }
+
+    .header__investments
+    {
+        font: 500 13px/1.25 normal;
+        font-family: Montserrat;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        width: 45%;
+        margin-left: 30%;
+    }
+    
+    .header__investments-part
+    {
+       margin-left: 5%;
+    }
+    
+    .header__button
+    {
+        background-color: #05090C;
+        width: 25%;
+        border-radius: 5px;
+        text-align: center;
+        padding: 1.5% 0;
+        margin-top: 0;
+        
+    }
+
+    .header__button-text
+    {
+        font: 600 13px/1 normal;
+        color: #FFF;
+        font-family: Montserrat;
+    }
+
+    .mainscreen
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    .mainscreen__up
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: -23%;
+    }
+
+
+    .mainscreen__up-header
+    {
+        font: 600 65px/1.2 normal;
+        font-family: Montserrat;
+        margin-left: 3%;
+        width: 45%;
+    }
+    
+    .mainscreen__up-image
+    {
+        width: 50%;
+        margin-top: 18%;
+    }
+    
+    .mainscreen__down
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 4%;
+        margin-bottom: 4%;
+    }
+
+    .mainscreen__down-text
+    {
+        margin-top: 0;
+        font: 400 15px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #4D4D4D;
+        width: 60%;
+        text-align: left;
+    }
+
+    .mainscreen__button
+    {
+        background-color: #05090C;
+        width: 65%;
+        padding: 3% 0%;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .mainscreen__button-text
+    {
+        font: 600 13px/1 normal;
+        font-family: Montserrat;
+        color: #FFF;
+    }
+
+    .benefits
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .benefits__blocks
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .benefits__time
+    {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__time-icon
+    {
+        width: 13%;
+    }
+
+    .benefits__text
+    {
+        font: 400 15px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .benefits__notebooks
+    {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .benefits__notebooks-icon
+    {
+        width: 13%;
+    }
+
+    .benefits__target
+    {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .benefits__target-icon
+    {
+        width: 13%;
+    }
+
+    .problems
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    .problems__up
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .problems__up-image1
+    {
+        width: 30%;
+    }
+
+    .problems__up-right
+    {
+        width: 40%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .problems__right-header
+    {
+        font: 500 27px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__right-text
+    {
+        font: 400 13px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .problems__down
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .problems__down-image2
+    {
+        width: 27%;
+    }
+
+    .problems__down-left
+    {
+        margin-left: 14%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .problems__left-header
+    {
+        font: 500 27px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__left-text
+    {
+        font: 400 13px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .opportunities
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .opportunities__blocks
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opportunities__blocks-up
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .opportunities__blocks-bottom
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .opportunities__header
+    {
+        font: 500 27px/1.2 normal;
+        font-family: Montserrat;
+    }
+
+    .opportunities__block
+    {
+        background-color: #000;
+        width: 27%;
+        border-radius: 7px;
+        padding: 4% 0;
+        margin-right: 2%;
+    }
+
+    .opportunities__l1-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__text
+    {
+        font: 400 14px/1.15 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        width: 85%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l2-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l3-image
+    {
+        width: 13%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l4-image
+    {
+        width: 10%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l5-image
+    {
+        width: 12%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l6-image
+    {
+        width: 9%;
+        margin-left: 15%;
+    }
+
+    .footer
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .footer__logo
+    {
+        width: 10%;  
+    }
+}
+
+@media screen and (min-width: 1366px)
+{
+    .contain_wrapper
+    {
+        max-width: 1366px;
+    }
+    
+    .header
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1%;
+    }
+
+    .header__logo
+    {
+        width: 8.7%;
+        margin-right: 3%;
+        margin-left: 6%;
+    }
+
+    .header__investments
+    {
+        font: 500 16px/1.25 normal;
+        font-family: Montserrat;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        width: 45%;
+        margin-left: 32%;
+    }
+    
+    .header__investments-part
+    {
+       margin-left: 7%;
+    }
+    
+    .header__button
+    {
+        background-color: #05090C;
+        width: 24.9%;
+        border-radius: 5px;
+        text-align: center;
+        padding: 1% 0;
+        margin-top: 0;
+        margin-left: 5%;
+        
+    }
+
+    .header__button-text
+    {
+        font: 600 16px/1 normal;
+        color: #FFF;
+        font-family: Montserrat;
+    }
+
+    .mainscreen
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    .mainscreen__up
+    {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -14%;
+        margin-left: 9.3%;
+    }
+
+
+    .mainscreen__up-header
+    {
+        font: 600 100px/1.2 normal;
+        font-family: Montserrat;
+        margin-left: 3%;
+        width: 50%;
+    }
+    
+    .mainscreen__up-image
+    {
+        width: 75%;
+        margin-top: 7%;
+    }
+    
+    .mainscreen__down
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 12%;
+        margin-bottom: 4%;
+    }
+
+    .mainscreen__down-text
+    {
+        margin-top: 0;
+        font: 400 26px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #4D4D4D;
+        width: 65%;
+        text-align: left;
+        margin-bottom: 6%;
+    }
+
+    .mainscreen__button
+    {
+        background-color: #05090C;
+        width: 40.8%;
+        padding: 3% 0%;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .mainscreen__button-text
+    {
+        font: 600 16px/1 normal;
+        font-family: Montserrat;
+        color: #FFF;
+    }
+
+    .benefits
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .benefits__blocks
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .benefits__time
+    {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__time-icon
+    {
+        width: 15.6%;
+    }
+
+    .benefits__text
+    {
+        font: 400 22px/1.2 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .benefits__notebooks
+    {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .benefits__notebooks-icon
+    {
+        width: 15.6%;
+    }
+
+    .benefits__target
+    {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .benefits__target-icon
+    {
+        width: 15.6%;
+    }
+
+    .problems
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    .problems__up
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .problems__up-image1
+    {
+        width: 32.6%;
+    }
+
+    .problems__up-right
+    {
+        width: 30%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .problems__right-header
+    {
+        font: 500 48px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__right-text
+    {
+        font: 400 18px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .problems__down
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    
+    .problems__down-image2
+    {
+        width: 27.5%;
+    }
+
+    .problems__down-left
+    {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .problems__left-header
+    {
+        font: 500 48px/1.25 normal;
+        font-family: Montserrat;
+    }
+
+    .problems__left-text
+    {
+        font: 400 18px/1.35 normal;
+        font-family: Roboto Condensed;
+    }
+
+    .opportunities
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .opportunities__blocks
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .opportunities__blocks-up
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .opportunities__blocks-bottom
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .opportunities__header
+    {
+        font: 500 48px/1.2 normal;
+        font-family: Montserrat;
+    }
+
+    .opportunities__block
+    {
+        background-color: #000;
+        width: 18.6%;
+        border-radius: 7px;
+        padding: 2% 0;
+        margin-right: 2%;
+    }
+
+    .opportunities__l1-image
+    {
+        width: 10.3%;
+        margin-left: 15%;
+    }
+
+    .opportunities__text
+    {
+        font: 400 18px/1.15 normal;
+        font-family: Roboto Condensed;
+        color: #FFF;
+        width: 80%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l2-image
+    {
+        width: 10.3%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l3-image
+    {
+        width: 13.3%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l4-image
+    {
+        width: 10.3%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l5-image
+    {
+        width: 12.3%;
+        margin-left: 15%;
+    }
+
+    .opportunities__l6-image
+    {
+        width: 9.3%;
+        margin-left: 15%;
+    }
+
+    .footer
+    {
+        background-color: #000;
+        width: 100%;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        padding-top: 2.6%;
+        padding-bottom: 2.6%;
+    }
+
+    .footer__logo
+    {
+        width: 8.7%;  
+    }
+}
