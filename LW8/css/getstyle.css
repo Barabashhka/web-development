@@ -1,0 +1,31 @@
+.get_form
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.your_email
+{
+    font: 500 18px/1.2 normal;
+    font-family: Montserrat;
+    color: #999;
+    border-color:#C0C0C0;
+    border-radius: 5px;
+    border-style: solid;
+    width: 25.2%;
+    height: 64px;
+    padding-left: 1.4%;
+}
+
+.submit
+{
+    font: 500 18px/1.2 normal;
+    font-family: Montserrat;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    width: 25.2%;
+    height: 64px;
+    text-align: center;
+    margin-left: 2.7%;
+}
