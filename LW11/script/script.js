@@ -60,7 +60,7 @@ function nameValidate(name) {
    return name !== '' && name_regex.test(name);
 }
 
-function setColor(inputElement, isValid) {
+function setBorderColor(inputElement, isValid) {
 	if (isValid) {
 		inputElement.style.borderColor = '#C0C0C0';
 	} else {
@@ -72,11 +72,11 @@ function validate(emailInput, nameInput, professionInput) {
    let isNameValid = nameValidate(nameInput.value);
    let isProfessionValid = professionInput.value != 'undefined';
 
-   setColor(emailInput, isEmailValid);
+   setBorderColor(emailInput, isEmailValid);
 
-   setColor(nameInput, isNameValid);
+   setBorderColor(nameInput, isNameValid);
 
-   setColor(professionInput, isProfessionValid);
+   setBorderColor(professionInput, isProfessionValid);
 
    return isEmailValid && isNameValid && isProfessionValid;
 }
